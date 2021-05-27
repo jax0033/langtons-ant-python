@@ -98,7 +98,7 @@ class Board:
 		#fills the screen with the first color so the ant can begin moving
 		self.screen.fill(self.color[0])
 		self.running = True
-		while running:
+		while self.running:
 			for event in pygame.event.get():
 				if event.type == pygame.QUIT:
 					quit()
