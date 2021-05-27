@@ -22,8 +22,8 @@ class Board:
 		self.ant = [w//2,h//2]
 		#declares movement information for the ant
 		self.index = 0
-		self.orientation = 3
-		self.or_index = [[-1,0],[0,1],[1,0],[0,-1]]
+		self.orientation = 0
+		self.or_index = [[-1,0],[0,-1],[1,0],[0,1]]
 		self.length = len(rules)-1
 		self.screen = pygame.display.set_mode((self.w,self.h))
 
